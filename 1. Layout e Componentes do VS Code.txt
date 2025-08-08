@@ -1,0 +1,64 @@
+1. Layout e Componentes do VS Code
+A interface do VS Code é dividida em áreas-chave:
+
+Componente	Função
+Barra de Atividades (lado esquerdo)	Ícones para acesso rápido: Explorador de Arquivos, Pesquisa, Git, Extensões.
+Editor (centro)	Onde você escreve e edita o código. Suporta abas para múltiplos arquivos.
+Painel Inferior	Terminal integrado, saída de depuração, problemas e logs.
+Barra de Status (inferior)	Mostra o branch do Git, linguagem do arquivo, erros, etc.
+Dica: Use Ctrl + B para ocultar/mostrar a barra lateral.
+
+2. Extensões Úteis para Python
+Instale estas extensões (via ícone de extensões na barra esquerda):
+
+Extensão	Descrição
+Python (Microsoft)	Suporte oficial para Python (execução, depuração, linting).
+Pylance	Autocompletar inteligente e análise de tipos.
+Jupyter	Para trabalhar com notebooks (.ipynb) diretamente no VS Code.
+Python Test Explorer	Facilita a execução de testes unitários.
+Como instalar:
+
+Abra a aba de extensões (Ctrl + Shift + X).
+
+Busque pelo nome e clique em "Install".
+
+3. Personalização do Ambiente
+Configurações Básicas
+Acesse: File > Preferences > Settings (Ctrl + ,).
+
+Exemplos de personalizações úteis:
+
+Tema de cores: Busque por "Color Theme" e escolha (ex.: "Dark+").
+
+Tamanho da fonte: Ajuste Editor: Font Size.
+
+Atalhos de teclado: Ctrl + K Ctrl + S para remapear comandos.
+
+Temas de ícones:
+Instale temas como "Material Icon Theme" para melhor visualização de arquivos.
+
+4. O que Não Alterar (Iniciantes)
+Item	Motivo
+settings.json (manual)	Editar diretamente pode causar erros. Prefira a interface gráfica.
+.vscode/ (pasta de projetos alheios)	Contém configurações específicas do projeto. Alterar pode quebrar o ambiente.
+Configurações do SO	O VS Code não deve ser usado para ajustes do sistema operacional.
+Exceção: Se você estiver em um projeto pessoal, pode explorar o settings.json para configurações avançadas.
+
+5. Checklist de Objetivos
+ Layout do VS Code: Identifique todas as áreas da interface.
+ Extensões Python: Instale Pylance e Jupyter.
+ Personalização: Ajuste tema, fonte e atalhos.
+ Configurações seguras: Não mexa em arquivos alheios sem necessidade.
+
+Exercício Prático
+Abra o VS Code e crie um arquivo exemplo.py.
+
+Escreva uma classe simples em Python (ex.: class Aluno: com atributos nome e nota).
+
+Execute o código no terminal integrado (Ctrl + Backtick para abrir o terminal).
+
+Comando para executar:
+
+bash
+python exemplo.py
+
